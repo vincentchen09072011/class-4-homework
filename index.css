@@ -1,0 +1,284 @@
+.content1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  padding: 8px 0;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+.upper-whole-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.upper-left-nav {
+  display: flex;
+  justify-content: flex-start;
+}
+.upper-left-nav i {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 8px 9px 9px;
+  transition: background-color 0.6 ease;
+  border-radius: 3px;
+}
+.upper-left-nav i:hover {
+  color: #807b7b;
+}
+.upper-mid-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+.upper-mid-nav li a {
+  transition: background-color 0.6 ease;
+  color: black;
+  font-size: 10px;
+  text-decoration: none;
+  padding: 7px 6px 8px;
+}
+.upper-mid-nav li a:hover {
+  color: #807b7b;
+}
+.content1 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.upper-whole-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  grid-template-columns: 25% 50% 25%;
+  transition: background-color 0.6 ease;
+  border-radius: 3px;
+}
+.buttons span:hover {
+  color: #d5cfcf;
+}
+.buttons .sub {
+  display: flex;
+  margin-right: 25px;
+  padding: 10px 5px;
+  background-color: #567b95;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 10px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.buttons .log-in {
+  display: flex;
+  margin-right: 14px;
+  padding: 10px 10px;
+  background-color: rgb(86, 123, 149);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 10px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.content2 {
+  display: grid;
+  grid-template-columns: 25% 50% 40%;
+  border-bottom: 1px solid gray;
+}
+
+.mid-left-nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 0px;
+}
+.mid-mid-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+.mid-right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  line-height: 0px;
+}
+.tempature {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 14px;
+  gap: 10px;
+}
+.tempature:first-of-type {
+  margin-right: 10px;
+}
+.temp2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+  gap: 5px;
+}
+
+.degree {
+  margin-left: 10px;
+  color: red;
+}
+.fa-arrow-down-long {
+  margin-left: 3px;
+  color: red;
+}
+ul.bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
+.bottom-nav {
+  line-height: 15px;
+  border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.content3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 3fr 1fr;
+}
+.chinese-air-balloon {
+  border-bottom: 1px solid gray;
+}
+.earthquake {
+  border-bottom: 1px solid gray;
+}
+.hogwarts {
+  border-bottom: 1px solid gray;
+}
+.america {
+  border-bottom: 1px solid gray;
+}
+.george-santos {
+  border-bottom: 1px solid gray;
+}
+.paul {
+  border-bottom: 1px solid gray;
+}
+
+.fetterman {
+  border-bottom: 1px solid gray;
+}
+
+.erdogans {
+  border-bottom: 1px solid gray;
+}
+.piano {
+  border-bottom: 1px solid gray;
+}
+.fetterman2 {
+  border-bottom: 1px solid gray;
+}
+.children {
+  border-bottom: 1px solid gray;
+}
+.irs {
+  border-bottom: 1px solid gray;
+}
+.florida {
+  border-bottom: 1px solid gray;
+}
+.roberto {
+  border-bottom: 1px solid gray;
+}
+.the-weekender img {
+  width: 300px;
+}
+.the-weekender {
+  border-bottom: 1px solid gray;
+}
+.therapy img {
+  width: 500px;
+}
+.therapy {
+  border-bottom: 1px solid gray;
+}
+.movies img {
+  width: 150px;
+}
+.movies {
+  border-bottom: 1px solid gray;
+}
+.bone-women img {
+  width: 300px;
+}
+.bone-women {
+  border-bottom: 1px solid gray;
+}
+.review img {
+  width: 150px;
+}
+.review {
+  border-bottom: 1px solid gray;
+}
+.rejection img {
+  width: 150px;
+}
+.rejection {
+  border-bottom: 1px solid gray;
+}
+.jet img {
+  width: 500px;
+}
+.jet {
+  border-bottom: 1px solid gray;
+}
+.wagner img {
+  width: 500px;
+}
+.wagner {
+  border-bottom: 1px solid gray;
+}
+.eviction iframe {
+  height: 400px;
+  width: 600px;
+}
+.eviction {
+  border-bottom: 1px solid gray;
+}
+.land-dispute img {
+  width: 400px;
+}
+.land-dispute {
+  border-bottom: 1px solid gray;
+}
+.superbowl img {
+  width: 450px;
+}
+.superbowl {
+  border-bottom: 1px solid gray;
+}
+.nba img {
+  width: 450px;
+}
+.nba {
+  border-bottom: 1px solid gray;
+}
